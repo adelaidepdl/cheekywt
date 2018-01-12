@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cheeky Wine Time</title>
+</head>
+<body style="text-align: center; font-size: 25px; color: #203a44; font-family: 'Arial'; ">
+	<p style="font-size: 31px;">Is it Cheeky Wine time yet?</p>
+
+	<script type="text/javascript">
+		var d=new Date();
+		var h=d.getHours();
+		var m=d.getMinutes();
+
+		if (d>=15 && m>=30) {
+			document.write("<p>YEEEEESSSSS!</p>");
+		} else {
+			document.write("<p>No :(</p>");
+		}
+	</script>
+
+</body>
+</html>
